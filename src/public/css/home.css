@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(196, 194, 194);
+
+}
+#content {
+    display: flex;
+    flex-direction: row;
+    width: 60rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+#mainContent {
+    display: flex;
+    flex-direction: column;
+    width: 80rem;
+    text-align: center;
+    padding-bottom: 2rem;
+
+    margin-left: 4rem;
+    
+}
+#sideBar {
+    width: 30rem;
+    height: 20rem; 
+    background-color: white;
+    text-align: center;
+    padding-top: 2rem;
+}
+#btnMenu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+#btnMenu button{
+    margin-bottom: 1rem;
+}
+#card {
+    width: 30rem;
+    background-color: white;
+    margin-bottom: 2rem;
+    
+}
+#cardHeader {
+    text-align: right;
+}
+#cardContent {
+    text-align: left;
+    padding-left: 2rem;
+}
+#cardContent strong {
+    font-size: 1rem;
+}
+#cardContent span {
+    font-weight: 400;
+}
+#msgNenhumProduto {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(94, 93, 93);
+}
+#msgObs {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(116, 116, 116);
+}
+#containerObs {
+    margin-top: 5rem;
+}
+.input {
+    outline: none;
+    width: 20rem;
+    padding-left: 0.9rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem; 
+    margin-bottom: 1rem;
+ }
+ #bodyModal {
+    text-align: center;
+ }
+ .clickable {
+    cursor: pointer;
+ }
